@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Instagram Clone</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Minyulite">
+    <meta name="description" content="Instagram clone website">
+    <meta name="keywords" content="HTML, CSS, JavaScript, JS">
+    <!-- <meta http-equiv="refresh" content="1.5;url=http://127.0.0.1:5500/instagram.html"> -->
+    
+    <link rel="stylesheet" type="text/css" href="css/general.css">
+    <link rel="stylesheet" type="text/css" href="css/navigation-bar.css">
+    <link rel="stylesheet" type="text/css" href="css/content.css">
+    <link rel="stylesheet" type="text/css" href="css/able.css">
+    <link rel="stylesheet" type="text/css" href="css/media-query.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+  </head>
+  
+  <body>
+    <div class="page-container">
+      <header class="header">
+        <div class="header-container">
+          <div class="header-left-section">
+            <img class="header-instagram-logo-text" src="images/instagram_logo_text.png">
+          </div>
+  
+          <div class="header-right-section">
+            <div class="header-search-bar-container">
+              <input class="header-search-bar" type="text" placeholder="ค้นหา">
+              <img class="header-search-bar-image" src="images/search_gray.png">
+            </div>
+            <img class="sidebar-link-image" src="images/notification.png">
+          </div>
+        </div>
+      </header>
+
+      <nav class="navigation-bar">
+        <div class="top-section-navigation-bar">
+          <img class="instagram-logo-text" src="images/instagram_logo_text.png">
+          <div class="sidebar-link sidebar-link-clicked">
+            <img class="sidebar-link-image" src="images/home_clicked.png">
+            <div>หน้าหลัก</div>
+          </div>
+          <div class="sidebar-link">
+            <img class="sidebar-link-image" src="images/search.png">
+            <div>ค้นหา</div>
+          </div>
+          <div class="sidebar-link">
+            <img class="sidebar-link-image" src="images/explore.png">
+            <div>สำรวจ</div>
+          </div>
+          <div class="sidebar-link">
+            <img class="sidebar-link-image" src="images/reels.png">
+            <div>Reels</div>
+          </div>
+          <div class="sidebar-link">
+            <img class="sidebar-link-image" src="images/message.png">
+            <div>ข้อความ</div>
+          </div>
+          <div class="sidebar-link">
+            <img class="sidebar-link-image" src="images/notification.png">
+            <div>การแจ้งเตือน</div>
+          </div>
+          <div class="sidebar-link">
+            <img class="sidebar-link-image" src="images/create.png">
+            <div>สร้าง</div>
+          </div>
+          <div class="sidebar-link">
+            <img class="sidebar-link-image sidebar-profile-picture" src="images/profile_picture.jpg">
+            <div>โปรไฟล์</div>
+          </div>
+        </div>
+
+        <div class="sidebar-link">
+            <img class="sidebar-link-image" src="images/addition.png">
+            <div>เพิ่มเติม</div>
+          </div>
+      </nav>
+
+      <nav class="navigation-bar-small">
+        <div class="top-section-navigation-bar">
+          <img class="instagram-logo" src="images/instagram_logo.png">
+          <div class="sidebar-link sidebar-link-clicked">
+            <img class="sidebar-link-image" src="images/home_clicked.png">
+          </div>
+          <div class="sidebar-link">
+            <img class="sidebar-link-image" src="images/search.png">
+          </div>
+          <div class="sidebar-link">
+            <img class="sidebar-link-image" src="images/explore.png">
+          </div>
+          <div class="sidebar-link">
+            <img class="sidebar-link-image" src="images/reels.png">
+          </div>
+          <div class="sidebar-link">
+            <img class="sidebar-link-image" src="images/message.png">
+          </div>
+          <div class="sidebar-link">
+            <img class="sidebar-link-image" src="images/notification.png">
+          </div>
+          <div class="sidebar-link">
+            <img class="sidebar-link-image" src="images/create.png">
+          </div>
+          <div class="sidebar-link">
+            <img class="sidebar-link-image sidebar-profile-picture" src="images/profile_picture.jpg">
+          </div>
+        </div>
+
+        <div class="sidebar-link">
+            <img class="sidebar-link-image" src="images/addition.png">
+          </div>
+      </nav>
+
+      <nav class="navigation-bar-bottom">
+        <div class="sidebar-link sidebar-link-clicked">
+          <img class="sidebar-link-image" src="images/home_clicked.png">
+        </div>
+        <div class="sidebar-link">
+          <img class="sidebar-link-image" src="images/explore.png">
+        </div>
+        <div class="sidebar-link">
+          <img class="sidebar-link-image" src="images/reels.png">
+        </div>
+        <div class="sidebar-link">
+          <img class="sidebar-link-image" src="images/create.png">
+        </div>
+        <div class="sidebar-link">
+          <img class="sidebar-link-image" src="images/message.png">
+        </div>
+        <div class="sidebar-link">
+          <img class="sidebar-link-image sidebar-profile-picture" src="images/profile_picture.jpg">
+        </div>
+      </nav>
+
+      <div class="feeds-and-friends">
+        <main class="feeds-container">
+          <div class="feeds-right-container">
+            <header class="stories">
+              <div class="story">
+                <div class="story-profile-picture-div">
+                  <img class="story-profile-picture" src="images/profile_picture.jpg">
+                </div>
+                <div class="story-username">l.yf_2</div>
+              </div>
+              <div class="story">
+                <div class="story-profile-picture-div">
+                  <img class="story-profile-picture" src="images/profile_picture.jpg">
+                </div>
+                <div class="story-username">l.yf_2</div>
+              </div>
+              <div class="story">
+                <div class="story-profile-picture-div">
+                  <img class="story-profile-picture" src="images/profile_picture.jpg">
+                </div>
+                <div class="story-username">l.yf_2</div>
+              </div>
+              <div class="story">
+                <div class="story-profile-picture-div">
+                  <img class="story-profile-picture" src="images/profile_picture.jpg">
+                </div>
+                <div class="story-username">l.yf_2</div>
+              </div>
+              <div class="story">
+                <div class="story-profile-picture-div">
+                  <img class="story-profile-picture" src="images/profile_picture.jpg">
+                </div>
+                <div class="story-username">l.yf_2</div>
+              </div>
+              <div class="story">
+                <div class="story-profile-picture-div">
+                  <img class="story-profile-picture" src="images/profile_picture.jpg">
+                </div>
+                <div class="story-username">l.yf_2</div>
+              </div>
+              <div class="story">
+                <div class="story-profile-picture-div">
+                  <img class="story-profile-picture" src="images/profile_picture.jpg">
+                </div>
+                <div class="story-username">l.yf_2</div>
+              </div>
+              <div class="story">
+                <div class="story-profile-picture-div">
+                  <img class="story-profile-picture" src="images/profile_picture.jpg">
+                </div>
+                <div class="story-username">l.yf_2</div>
+              </div>
+            </header>
+
+            <div class="feeds">
+              <div class="feed">
+                <div class="feed-top-section">
+                  <div class="feed-top-left">
+                    <img class="feed-profile-picture" src="images/profile_picture.jpg">
+                    <div class="feed-top-left-right">
+                      <div class="feed-username">l.yf_2</div>
+                      <div class="middot">&middot;</div>
+                      <div class="feed-time">21 นาที</div>
+                    </div>
+                  </div>
+                  <div class="feed-top-right">
+                    <img class="feed-setting-icon" src="images/three_dot.png">
+                  </div>
+                </div>
+                <div class="feed-picture-container">
+                  <img class="feed-picture" src="images/sample_picture.jpg">
+                </div>
+
+                <div class="interactive-row">
+                  <div class="interactive-left-section">
+                    <img class="interactive-icon" src="images/notification.png">
+                    <img class="interactive-icon" src="images/comment.png">
+                    <img class="interactive-icon" src="images/share.png">
+                  </div>
+                  <div class="interactive-right-section">
+                    <img class="interactive-icon" src="images/save.png">
+                  </div>
+                </div>
+
+                <div class="feed-status">
+                  <div class="feed-like">ถูกใจ 98 คน</div>
+                  <div class="feed-description">
+                    <span class="feed-status-username">l.yf_2</span>
+                    I love you so much than you thought ... and eventually, than I thought.
+                  </div>
+                  <div class="feed-comment">ดูความคิดเห็นทั้ง 10 รายการ</div>
+                  <input class="feed-add-comment" type="text" placeholder="เพิ่มความคิดเห็น">
+                </div>
+              </div>
+            <div>
+
+            <div class="feed">
+              <div class="feed-top-section">
+                <div class="feed-top-left">
+                  <img class="feed-profile-picture" src="images/profile_picture.jpg">
+                  <div class="feed-top-left-right">
+                    <div class="feed-username">l.yf_2</div>
+                    <div class="middot">&middot;</div>
+                    <div class="feed-time">21 นาที</div>
+                  </div>
+                </div>
+                <div class="feed-top-right">
+                  <img class="feed-setting-icon" src="images/three_dot.png">
+                </div>
+              </div>
+              <div class="feed-picture-container">
+                <img class="feed-picture" src="images/sample_picture.jpg">
+              </div>
+
+              <div class="interactive-row">
+                <div class="interactive-left-section">
+                  <img class="interactive-icon" src="images/notification.png">
+                  <img class="interactive-icon" src="images/comment.png">
+                  <img class="interactive-icon" src="images/share.png">
+                </div>
+                <div class="interactive-right-section">
+                  <img class="interactive-icon" src="images/save.png">
+                </div>
+              </div>
+
+              <div class="feed-status">
+                <div class="feed-like">ถูกใจ 98 คน</div>
+                <div class="feed-description">
+                  <span class="feed-status-username">l.yf_2</span>
+                  I love you so much than you thought ... and eventually, than I thought.
+                </div>
+                <div class="feed-comment">ดูความคิดเห็นทั้ง 10 รายการ</div>
+                <input class="feed-add-comment" type="text" placeholder="เพิ่มความคิดเห็น">
+              </div>
+            </div>
+
+            <div class="feed">
+              <div class="feed-top-section">
+                <div class="feed-top-left">
+                  <img class="feed-profile-picture" src="images/profile_picture.jpg">
+                  <div class="feed-top-left-right">
+                    <div class="feed-username">l.yf_2</div>
+                    <div class="middot">&middot;</div>
+                    <div class="feed-time">21 นาที</div>
+                  </div>
+                </div>
+                <div class="feed-top-right">
+                  <img class="feed-setting-icon" src="images/three_dot.png">
+                </div>
+              </div>
+              <div class="feed-picture-container">
+                <img class="feed-picture" src="images/sample_picture.jpg">
+              </div>
+
+              <div class="interactive-row">
+                <div class="interactive-left-section">
+                  <img class="interactive-icon" src="images/notification.png">
+                  <img class="interactive-icon" src="images/comment.png">
+                  <img class="interactive-icon" src="images/share.png">
+                </div>
+                <div class="interactive-right-section">
+                  <img class="interactive-icon" src="images/save.png">
+                </div>
+              </div>
+
+              <div class="feed-status">
+                <div class="feed-like">ถูกใจ 98 คน</div>
+                <div class="feed-description">
+                  <span class="feed-status-username">l.yf_2</span>
+                  I love you so much than you thought ... and eventually, than I thought.
+                </div>
+                <div class="feed-comment">ดูความคิดเห็นทั้ง 10 รายการ</div>
+                <input class="feed-add-comment" type="text" placeholder="เพิ่มความคิดเห็น">
+              </div>
+            </div>
+          </div>
+        </main>
+
+        <div class="friends">
+          <div class="friends-top-section">
+            <div class="friends-top-left-section">
+              <img class="friends-profile-picture clickable" src="images/profile_picture.jpg">
+              <div class="friends-username clickable">l.yf_2</div>
+              <div class="friends-nickname">劉 / yingyang</div>
+            </div>
+            <div class="friends-top-right-section">
+              <div class="friends-change-text">
+                เปลี่ยน
+              </div>
+            </div>
+          </div>
+
+          <div class="friends-bottom-section">
+            <div class="friends-suggestion">
+              <div class="friends-suggestion-left">
+                <div class="suggestion-text">แนะนำสำหรับคุณ</div>
+              </div>
+              <div class="friends-suggestion-right clickable">
+                <div class="friends-all">
+                  ดูทั้งหมด
+                </div>
+              </div>
+            </div>
+
+            <div class="friend">
+              <div class="friend-top-left-section">
+                <img class="friends-profile-picture clickable" src="images/profile_picture.jpg">
+                <div class="friends-username clickable">l.yf_2</div>
+                <div class="friends-nickname">ติดตามโดย ....</div>
+              </div>
+              <div class="friend-top-right-section">
+                <div class="friends-follow-text">
+                  ติดตาม
+                </div>
+              </div>
+            </div>
+
+            <div class="friend">
+              <div class="friend-top-left-section">
+                <img class="friends-profile-picture clickable" src="images/profile_picture.jpg">
+                <div class="friends-username clickable">l.yf_2</div>
+                <div class="friends-nickname">ติดตามโดย ....</div>
+              </div>
+              <div class="friend-top-right-section">
+                <div class="friends-follow-text">
+                  ติดตาม
+                </div>
+              </div>
+            </div>
+
+            <div class="friend">
+              <div class="friend-top-left-section">
+                <img class="friends-profile-picture clickable" src="images/profile_picture.jpg">
+                <div class="friends-username clickable">l.yf_2</div>
+                <div class="friends-nickname">ติดตามโดย ....</div>
+              </div>
+              <div class="friend-top-right-section">
+                <div class="friends-follow-text">
+                  ติดตาม
+                </div>
+              </div>
+            </div>
+
+            <div class="friend">
+              <div class="friend-top-left-section">
+                <img class="friends-profile-picture clickable" src="images/profile_picture.jpg">
+                <div class="friends-username clickable">l.yf_2</div>
+                <div class="friends-nickname">ติดตามโดย ....</div>
+              </div>
+              <div class="friend-top-right-section">
+                <div class="friends-follow-text">
+                  ติดตาม
+                </div>
+              </div>
+            </div>
+
+            <div class="friend">
+              <div class="friend-top-left-section">
+                <img class="friends-profile-picture clickable" src="images/profile_picture.jpg">
+                <div class="friends-username clickable">l.yf_2</div>
+                <div class="friends-nickname">ติดตามโดย ....</div>
+              </div>
+              <div class="friend-top-right-section">
+                <div class="friends-follow-text">
+                  ติดตาม
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-us">
+            This website is created for practicing only. There are no bad intentions or any ulterior motives. <br><br>Minyulite.
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+.navigation-bar, .navigation-bar-small {
+    position: fixed;
+    width: 225px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+
+    background-color: var(--body-background-color);
+
+    border-right: 1px solid rgb(38, 38, 38);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 15px 10px;
+
+    z-index: 1;
+}
+
+.navigation-bar-small {
+    width: 50px;
+    display: none;
+}
+
+.instagram-logo {
+    width: 25px;
+    padding: 20px 0 35px 8px;
+
+    cursor: pointer;
+}
+
+.instagram-logo-text {
+    width: 110px;
+    padding: 20px 0 35px 8px;
+
+    cursor: pointer;
+}
+
+.top-section-navigation-bar {
+    display: grid;
+
+    row-gap: 10px;
+}
+
+.sidebar-link-image {
+    width: 25px;
+}
+
+.sidebar-link {
+    color: white;
+    font-size: 0.9em;
+    
+    /* border: 1px solid blue; */
+    border-radius: 8px;
+
+    display: flex;
+    column-gap: 17px;
+    align-items: center;
+    transition-duration: 0.15s;
+
+    padding: 10px 0 10px 10px;
+
+    cursor: pointer;
+}
+
+.sidebar-link:hover {
+    background-color: rgb(46, 46, 46, 0.7);
+}
+
+.sidebar-link-clicked {
+    font-weight: bold;
+}
+
+.sidebar-profile-picture {
+    border-radius: 20px;
+}
+
+.navigation-bar-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    background-color: black;
+    
+    border-top: 1px solid rgb(38, 38, 38);
+
+    z-index: 100;
+
+    display: none;
+}
+
+.navigation-bar-bottom .sidebar-link:hover {
+    background-color: black;
+}

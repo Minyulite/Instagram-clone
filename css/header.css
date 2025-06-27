@@ -1,0 +1,63 @@
+.header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+
+    z-index: 1000;
+
+    background-color: black;
+
+    /* display: none; */
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 15px;
+}
+
+.header-search-bar {
+    background-color: rgb(55, 55, 55);
+
+    color: white;
+    font-size: 20px;
+
+    border: none;
+    border-radius: 7px;
+
+    padding: 8px 15px 8px 45px
+}
+
+.header-instagram-logo-text {
+    width: 110px;
+    /* padding: 20px 0 0 8px; */
+
+    cursor: pointer;
+}
+
+.header-search-bar::placeholder {
+    color: rgb(158, 157, 157);
+    font-size: 20px;
+}
+
+.header-search-bar-container {
+    position: relative;
+}
+
+.header-search-bar-image {
+    width: 20px;
+    height: 20px;
+
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+.header-right-section {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
